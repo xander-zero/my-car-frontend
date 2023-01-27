@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import { HomePage } from "./app/containers/HomePage";
+import { HomePage } from "src/app/containers/HomePage";
 
 import "./App.css";
 

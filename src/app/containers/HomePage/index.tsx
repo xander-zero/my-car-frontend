@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar } from "src/app/components/navbar";
 import styled from "styled-components";
 import tw from "twin.macro";
 
@@ -14,5 +15,9 @@ const PageContainer = styled.div`
 `;
 
 export function HomePage() {
-  return <PageContainer>Hello World</PageContainer>;
+  return (
+    <PageContainer>
+      <Navbar />
+    </PageContainer>
+  );
 }
